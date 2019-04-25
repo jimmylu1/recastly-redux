@@ -22,7 +22,7 @@ import React from 'react';
       <input
         className="form-control"
         type="text"
-        onChange={props.handleSearchInputChange}
+        onChange={e => props.handleSearchInputChange(e.target.value)}
       />
       <button className="btn hidden-sm-down">
         <span className="glyphicon glyphicon-search"></span>
