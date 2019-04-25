@@ -42,7 +42,7 @@ import VideoPlayerContainer from '../containers/VideoPlayerContainer';
 
   //TODO: swap out the React components below for the container components
   //  you wrote in the 'containers' directory.
-var App = (props) => (
+var App = () => (
     <div>
       <nav className="navbar">
         <div className="col-md-6 col-md-offset-3">
